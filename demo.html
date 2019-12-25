@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #text_shadow{
+            text-shadow: 20px 20px 10px #6AAFCF;
+        }
+        #word_wrap{
+            word-wrap: break-word;
+            width: 150px;
+            border: 1px solid #ff0000;
+        }
+        #no_wrap{
+            width: 150px;
+            border: 1px solid #ff0000;
+        }
+        .mybg_css{
+            width: 300px;
+            height: 300px;
+            background-image: url('images/6.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 50%;
+        }
+
+        #div{
+            width: 300px;
+            height: 100px;
+            background: black;
+            
+            box-sizing: border-box;
+        }
+        #p{
+            color: white;     
+            transform: translatey(50px);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="text_shadow"><h1>Text Shadow</h1></div>
+
+    <div>Below is example of Word-Wrap. </div>
+
+    <div id="word_wrap">you can't break the line 
+        hereeeeeeeeeeeeeeeeeeeeeeeeeeee.
+    </div>
+
+    <div>
+        Without using word-wrap text will go like this.
+    </div>
+
+    <div id="no_wrap">you can't break the line 
+        hereeeeeeeeeeeeeeeeeeeeeeeeeeee.        
+    </div>
+    <br><br>
+
+    <div class="mybg_css">
+
+    </div>
+
+    <br><br>
+    <div id="div">
+        <p id="p">Box sizing is important</p>
+    </div>
+
+</body>
+</html>
